@@ -1,0 +1,266 @@
+/* Styles for the navigation bar */
+.navbar {
+    background-color: #FFBE1E; /* Change the background color */
+  }
+  
+  .navbar-brand {
+    color: #fff; /* Change the text color */
+  }
+  
+  .navbar-brand:hover,
+  .navbar-brand:focus {
+    color: #ddd; /* Change the text color on hover/focus */
+  }
+  
+  .navbar-nav > li > a {
+    color: #fff; /* Change the text color */
+  }
+  
+  .navbar-nav > li > a:hover,
+  .navbar-nav > li > a:focus {
+    color: #FF4600; /* Change the text color on hover/focus */
+    background-color: transparent; /* Remove the background color on hover/focus */
+    text-decoration: none;
+  }
+  
+  .navbar-nav > .active > a,
+  .navbar-nav > .active > a:hover,
+  .navbar-nav > .active > a:focus {
+    color: #fff; /* Change the text color for the active link */
+    background-color: #FFBE1E; /* Change the background color for the active link */
+  }
+  
+  .navbar-toggle .icon-bar {
+    background-color: #fff; /* Change the color of the toggle button bars */
+  }
+
+
+html{
+    background-image: url("../images/IMG_3050.jpg");
+    background-size: 560px ;
+    background-color: transparent ;
+    opacity: 170%;
+}
+body {
+    background-color: transparent;
+}
+.center {
+
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+  }
+  
+
+#profil{
+    width: 40px;
+    background-color: #FFBE1E;
+    border: none;
+    padding: none ;
+
+}
+
+#logo_bouton{
+    width: 80px;
+    position: fixed;
+  top: 0;
+  left: 0;
+}
+.error{
+    color:#FF4600;
+
+}
+
+.form_jeu{
+    background-color: #ffa34e;
+    border-radius: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: -2%;
+    margin-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+
+}
+.photo_u{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 150px;
+    /*padding-right: 60%; */
+    margin-left: -3%;
+}
+.photo-container {
+    object-fit: cover;
+    position:absolute;
+    /*width: 30px;
+    height: 40px; */
+    
+    margin-bottom: -90%;
+    padding-bottom: 100%; /* Ratio 1:1 pour la hauteur */
+    padding-right: 40%;
+    overflow: hidden;
+}
+
+p{
+    font-family: "Comic Sans MS", cursive;
+    text-indent: 70px; 
+    
+    
+      
+}
+.bandeau {
+    background-color: #00006E; /* Couleur du bandeau, ajustez-la selon vos préférences */
+    padding: 15px; /* Espace intérieur du bandeau, ajustez-le selon vos besoins */
+    font-family: "Comic Sans MS", cursive;
+    font-size: 30px !important;
+    
+    
+  }
+  .bandeau p {
+    /*color: #FFFFFF; */
+    font-size: 30px !important; 
+    font-family: "Comic Sans MS", cursive !important;
+    
+  }
+#manuscrit{
+    
+    text-align: center;
+    width: 100%;
+}
+  
+.image_profil{
+    max-width: 100%;
+  height: auto;
+}
+
+#importer{
+    background-color: #00006E; 
+    border: none; 
+    width : 23%; 
+    font-size: 10px ;
+
+}
+
+
+
+
+.btn-primary {
+    width: 60px;
+    background-color: #FFBE1E;
+    border: none;
+    padding: none ;
+}
+
+.btn-primary:hover {
+    background-color: transparent; /*#FFBE1E; Changer la couleur de survol selon vos préférences */
+  }
+
+.btn-danger {
+    background-color:#FF4600;
+    opacity: 0.8;
+    
+
+}
+
+.btn-danger:hover {
+    background-color:#FF4600;
+    opacity: 1;
+}
+
+div{
+   /* background-color: white; */
+}
+
+#fond{
+    background-color: white;
+
+}
+
+.connection{
+    
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive;
+    text-align: center;
+    color:#00006E;
+    background-color:#FFBE1E;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+.affichage-profil{
+    
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive;
+    text-align:right;
+    color:#00006E;
+    background-color:#FFBE1E;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 100%;
+    padding-top: 15px;
+    border-radius: 3%;
+    
+
+}
+.affichage-profil-vide{
+    
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive;
+    text-align:right;
+    color:#00006E;
+    background-color:#FFBE1E;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    /*border-radius: 3%;*/
+    
+
+}
+
+#profil_accueil{
+    
+    padding-top: 0%;
+    margin-right: 0px;
+    
+
+}
+
+#style_profil_accueil{
+    
+
+}
+
+#form{
+    text-align: center;
+
+}
+table{
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+
+}
+h3{
+    text-align: center;
+}
+a{
+    color:#00006E;
+}
+a:hover{
+    color:#00006E;
+}
